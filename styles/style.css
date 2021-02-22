@@ -1,3 +1,31 @@
+/*
+
+priority selectors:
+* {}
+p, tag {}
+.class-name {}
+#id-name {}
+inline-style {}
+
+*/
+
+
 p {
     color: aquamarine;
+}
+
+body {
+    background-color: black;
+}
+
+h1{
+    color: cadetblue;
+}
+
+.text {
+    background-color: darkgray;
+}
+
+#id {
+    color: darksalmon;
 }
