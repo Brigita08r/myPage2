@@ -2,12 +2,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Removed styling for element with a link on page */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .text-center {
     text-align: center;
 }
 
 .text-uppercase{
     text-transform: uppercase;
+}
+
+.text-bold {
+    font-weight: bold;
 }
 
 .page-title {
@@ -19,3 +29,36 @@ body {
     font-size: 16px;
 }
 
+/* News Section Start */
+.news-container {
+    margin-top: 100px;
+}
+
+.news-post {
+    width: 500px;
+}
+
+.news-post-author, .news-post-date{
+    font-size: 14px;
+    color: darkred;
+}
+
+.news-post-date {
+    color: deepskyblue;
+}
+
+.news-post-title{
+    border-left: 4px solid black;
+    padding-left: 10px;
+}
+
+.news-post-text{
+    border-left: 4px solid grey;
+    padding-left: 10px;
+    font-style: italic;
+    line-height: 22px;
+}
+
+.news-post-link{
+    color:lightcoral;
+}
