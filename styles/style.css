@@ -1,31 +1,21 @@
-/*
-
-priority selectors:
-* {}
-p, tag {}
-.class-name {}
-#id-name {}
-inline-style {}
-
-*/
-
-
-p {
-    color: aquamarine;
-}
-
 body {
-    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    color: cadetblue;
+.text-center {
+    text-align: center;
 }
 
-.text {
-    background-color: darkgray;
+.text-uppercase{
+    text-transform: uppercase;
 }
 
-#id {
-    color: darksalmon;
+.page-title {
+    letter-spacing: 1px;
 }
+
+.page-description {
+    color: darkcyan;
+    font-size: 16px;
+}
+
