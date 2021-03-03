@@ -67,3 +67,27 @@ img {
 .news-post-link{
     color:lightcoral;
 }
+
+/* Pseudo Classes */
+.list li:last-child a{
+    color: blueviolet;
+}
+
+/* Hovering On Element */
+.list a:hover{
+color: darkorange;
+}
+
+/* Pseudo Elements */
+.list{
+    list-style: none;
+}
+
+.list li::before{
+    content: '' ;
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    background-color: rgb(55, 0, 255);
+    margin-right: 7px;
+}
