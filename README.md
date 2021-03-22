@@ -3,4 +3,4 @@
  Trying to remember some basics. 
  Plan to try out creating pages.
  
- So far tried out: html, then added some styling with css and starting to add javascript as well.
+ So far I have tried out: html, then added some styling with css and starting to add javascript as well.
